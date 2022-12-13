@@ -1,0 +1,96 @@
+*{ 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2? family= Fugaz+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fugaz+One&display=swap');
+
+body {
+    background: #1a1a1a;
+}
+
+section {
+    width: 75%;
+    max-width: 1200;
+    height: 500px;
+    border: 1px solid #ffff;
+    margin: 120px auto;
+}
+
+#fila{
+    width: 100%;
+    display: flex;
+}
+#foto img {
+   width: 280px;
+   height: 500px;
+
+}
+
+#foto {
+   width: 35%; 
+}
+
+#info{
+    width: 75%;
+}
+#info h2{
+    color: #00f29e;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Fugaz one', cursive;
+    margin-bottom: 0;
+}
+#info h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Fugaz one', cursive;
+    margin-top: 0;
+
+}
+
+#info #detalle{
+    width: 160px;
+    height: 4px;
+    background: #00f29e;
+    margin-bottom: 2%;
+}
+#info p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2%;
+}
+#info article{
+    border: 4px solid #00f29e;
+    width: 94%;
+}
+
+article ul li{
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+#info #redes {
+    margin-top: 40px;
+}
+#info #redes a{
+    margin: 0 10px ;
+}
+#redes a img{
+    transition: .5s;
+
+}
+
+#redes a img:hover{
+    transform: scale(1.3);
+}
